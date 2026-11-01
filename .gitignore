@@ -1,0 +1,32 @@
+# Build output
+build/
+build-*/
+CMakeLists.txt.user*
+CMakeCache.txt
+CMakeFiles/
+
+# Deployed app and installers (attach these to GitHub Releases instead)
+deploy/
+dist/
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+
+# Qt Creator / IDE per-user settings
+.qtcreator/
+*.user
+.vs/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
